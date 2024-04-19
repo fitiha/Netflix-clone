@@ -5,3 +5,19 @@
 .App{
   background-color: black;
 }
+
+.footer-page{
+  margin-top: 15px;
+  height: 50px;
+  font-weight: 100;
+  background-color: Black;
+  font-family: monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.developer-name{
+  color: rgb(228, 11, 11);
+}

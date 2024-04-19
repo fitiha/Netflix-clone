@@ -1,8 +1,9 @@
 import './App.css'
 import Row from './Row.js';
 import requests from './requests.js';
-import Banner from './Banner.js'
-import Nav from './Nav.js'
+import Banner from './Banner.js';
+import Nav from './Nav.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
         title='HORROR MOVIES'
         fetchUrl={requests.fetchHorrorMovies}
       />
+      <hr />
+      <Footer />
     </div>
   );
 }
